@@ -244,10 +244,16 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="javascript:;" class="nav-link">
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    <a href="{{ route('logout') }}" class="nav-link"
+                                    onclick="event.preventDefault();
+                                                this.closest('form').submit();">
                                     <i data-feather="log-out"></i>
                                     <span>Log Out</span>
                                 </a>
+                                </form>
+
                             </li>
                         </ul>
                     </div>

@@ -14,12 +14,102 @@
         <ul class="nav">
             <li class="nav-item nav-category">Main</li>
             <li class="nav-item">
-                <a href="dashboard-one.html" class="nav-link">
+                <a href="{{ route('dashboard') }}" class="nav-link">
                     <i class="link-icon" data-feather="box"></i>
                     <span class="link-title">Dashboard</span>
                 </a>
             </li>
-            <li class="nav-item nav-category">web apps</li>
+            <li class="nav-item nav-category">Products</li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
+                    aria-controls="products">
+                    <i class="link-icon" data-feather="shopping-cart"></i>
+                    <span class="link-title">Products</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" id="products">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Product List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Add Product</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#categories" role="button" aria-expanded="false"
+                    aria-controls="categories">
+                    <i class="link-icon" data-feather="archive"></i>
+                    <span class="link-title">Categories</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" id="categories">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Category List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Add Category</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#brands" role="button" aria-expanded="false"
+                    aria-controls="brands">
+                    <i class="link-icon" data-feather="award"></i>
+                    <span class="link-title">Brands</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" id="brands">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Brand List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Add Brand</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#colors" role="button" aria-expanded="false"
+                    aria-controls="colors">
+                    <i class="link-icon" data-feather="droplet"></i>
+                    <span class="link-title">Colors</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" id="colors">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Color List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Add Color</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#sizes" role="button" aria-expanded="false"
+                    aria-controls="sizes">
+                    <i class="link-icon" data-feather="square"></i>
+                    <span class="link-title">Sizes</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" id="sizes">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Size List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Add Size</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="collapse" href="#emails" role="button" aria-expanded="false"
                     aria-controls="emails">
@@ -55,8 +145,8 @@
             </li>
             <li class="nav-item nav-category">Components</li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false"
-                    aria-controls="uiComponents">
+                <a class="nav-link" data-toggle="collapse" href="#uiComponents" role="button"
+                    aria-expanded="false" aria-controls="uiComponents">
                     <i class="link-icon" data-feather="feather"></i>
                     <span class="link-title">UI Kit</span>
                     <i class="link-arrow" data-feather="chevron-down"></i>
