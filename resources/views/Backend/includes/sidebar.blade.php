@@ -48,10 +48,10 @@
                 <div class="collapse" id="categories">
                     <ul class="nav sub-menu">
                         <li class="nav-item">
-                            <a href="" class="nav-link">Category List</a>
+                            <a href="{{ route('admin.category.index') }}" class="nav-link">Category List</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Add Category</a>
+                            <a href="{{ route('admin.category.create') }}" class="nav-link">Add Category</a>
                         </li>
                     </ul>
                 </div>
